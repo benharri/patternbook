@@ -1,5 +1,5 @@
 <?php
-if(empty($pattern)){header("Location: http://euclid.nmu.edu/~benharri/patternbook"); die();}
+if(empty($pattern)){header("Location: /"); die();}
 
 include_once "header.php";
 
