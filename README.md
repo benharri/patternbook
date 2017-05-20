@@ -1,5 +1,5 @@
 # Software Development Pattern Book
 
-[patternbook online](patterns.benharr.is)
+[patternbook online](http://patterns.benharr.is)
 
 
