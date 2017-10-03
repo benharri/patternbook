@@ -28,7 +28,7 @@ include_once "header.php";
   <h3>Ben Harris' Pattern Book</h3>
 </div>
 
-<p>This is collection of experiences I have noticed in my experiences with software development so far.</p>
+<p>This is a collection of experiences I have noticed in my experiences with software development so far.</p>
 <p>Patterns are:</p>
 <ul>
   <li>element of grammar</li>
@@ -48,3 +48,4 @@ include_once "header.php";
 <div class="page-header"><h2><strong>Allow, don't force.</strong></h2></div>
 
 <?php include_once "footer.php";
+

@@ -1,8 +1,8 @@
 <?php
 include "common_fns.php";
-$dir = "/";
-$menu = array(
-  "Creational" => array(
+$dir = $dir ?? implode(explode("index.php", $_SERVER["SCRIPT_NAME"]));
+$menu = $menu ?? [
+  "Creational" => [
     "Factory" => "$dir?factory",
     "Double Dispatch" => "$dir?doubledispatch",
     "Prototype" => "$dir?prototype",
@@ -11,8 +11,8 @@ $menu = array(
     "Builder" => "$dir?builder",
     "Singleton" => "$dir?singleton",
     "Null Object" => "$dir?nullobject"
-  ),
-  "Behavioral" => array(
+  ],
+  "Behavioral" => [
     "Command" => "$dir?command",
     "Observer" => "$dir?observer",
     "Mediator" => "$dir?mediator",
@@ -24,8 +24,8 @@ $menu = array(
     "Template Method" => "$dir?template",
     "State" => "$dir?state",
     "Strategy" => "$dir?strategy"
-  ),
-  "Structural" => array(
+  ],
+  "Structural" => [
     "Facade" => "$dir?facade",
     "Composite" => "$dir?composite",
     "Decorator" => "$dir?decorator",
@@ -34,8 +34,8 @@ $menu = array(
     "Adapter" => "$dir?adapter",
     "Flyweight" => "$dir?flyweight",
     "Proxy" => "$dir?proxy"
-  )
-);
+  ]
+];
 
 
 ?>

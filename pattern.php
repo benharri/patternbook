@@ -1,5 +1,6 @@
 <?php
-if(empty($pattern)){header("Location: /"); die();}
+$dir = $dir ?? implode(explode("index.php", $_SERVER["SCRIPT_NAME"]));
+if(empty($pattern)){header("Location: $dir"); die();}
 
 include_once "header.php";
 
